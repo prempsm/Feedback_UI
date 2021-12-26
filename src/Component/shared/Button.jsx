@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"
+import PropTypes from 'prop-types'
 
 function Button({children,type,version,isDisabled}) {
     return (
@@ -7,12 +7,12 @@ function Button({children,type,version,isDisabled}) {
         </button>
     )
 }
-Button.dfaultProps ={
+Button.defaultProps ={
     type: 'button',
-    disabled:'false',
+    disabled:'true',
     version: 'primary'
 }
-Button.protoType ={
+Button.propType ={
  children: PropTypes.node.isRequired,
  version: PropTypes.string,
  type: PropTypes.string,

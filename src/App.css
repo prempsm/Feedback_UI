@@ -114,6 +114,9 @@ cursor: pointer;
     width: 100%;
     
 }
+.btn:disabled{
+    background:gray;
+}
 .input-group input:focus{
     outline: none;
 }
@@ -125,4 +128,84 @@ cursor: pointer;
     padding-left:15px;
     border-top-right-radius: unset;
     border-bottom-right-radius:unset ;
+}
+.ps-msg{
+    text-align:center;
+    color:indigo;
+    padding-top:20px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 40px;
+    list-style: none;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.rating li{
+    position: relative;
+}
+.rating li label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 19px;
+    height: 19px;
+    padding: 10px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating li {
+    position: relative;
+    background: #f4f4f4;
+    width: 19px;
+    height: 19px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 19px;
+    border: 1px #eee solid;
+    transition: 0.3s;
+}
+.rating [type='radio']:checked ~ label {
+    background: #ff6a95;
+    color: #fff;
+}
+.rating input {
+    flex-grow: 2;
+    border: none;
+    font-size: 16px;
+}
+.rating li:hover {
+    background: #ff6a95;
+    color: #fff;
+}
+[type='radio'] {
+    opacity: 0;
+}
+.card-parent.card-reverse .rating li{
+    color: black !important;;
+}
+.about-link{
+    padding:20px;
+    text-align:right;
+    color:white;
+}
+.about-us p{
+padding-top:20px;
+}
+.about-us a{
+    margin-top:20px;
+    display: block;
+    text-decoration: none;
+    color:coral;
+}
+.about-link a{
+    color:white;
 }

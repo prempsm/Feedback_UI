@@ -6,6 +6,10 @@ import Feedbackdata from './data/Feedbackdata';
 import { useState } from 'react';
 import FeedbackStats from './Component/FeedbackStats';
 import ReviewForm from './Component/ReviewForm';
+import {v4 as uuidv4} from 'uuid';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import About from './Pages/About';
+import AbouticonLink from './Component/AbouticonLink';
 
 function App() {
   const [feedback, setFeedback] = useState(Feedbackdata);
@@ -23,12 +27,31 @@ function App() {
   const handleDelete = (id) =>{
     setFeedback(feedback.filter((item)=> item.id!== id))
   }
+  const handleAdd = (newObj) =>{
+    newObj.id= uuidv4()
+    setFeedback([newObj, ...feedback])
+  }
   return (
     <div className="App">
+      
       <Header changeColor={changeMyColor}  />
-      <ReviewForm ibool={ibool} />
-      <FeedbackStats feedback={feedback} />
-      <FeedbackList feedback={feedback} ibool={ibool} handleDelete={handleDelete} />
+      <Router>
+      <Routes>
+      <Route 
+      exact
+      path="/"
+      element={
+        <>
+        <ReviewForm ibool={ibool} addFeedback={handleAdd} />
+        <FeedbackStats feedback={feedback} />
+        <FeedbackList feedback={feedback} ibool={ibool} handleDelete={handleDelete} />
+        <AbouticonLink  />
+        </>
+      }
+      ></Route>  
+      <Route path='/about' element={<About ibool={ibool} />} />
+      </Routes>
+      </Router>
     </div>
   );
 }
