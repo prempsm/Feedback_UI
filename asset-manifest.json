@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Feedback_UI/static/css/main.dba9ce61.chunk.css",
-    "main.js": "/Feedback_UI/static/js/main.6ed59ecf.chunk.js",
-    "main.js.map": "/Feedback_UI/static/js/main.6ed59ecf.chunk.js.map",
+    "main.css": "/Feedback_UI/static/css/main.f1eadf9d.chunk.css",
+    "main.js": "/Feedback_UI/static/js/main.5ae9726e.chunk.js",
+    "main.js.map": "/Feedback_UI/static/js/main.5ae9726e.chunk.js.map",
     "runtime-main.js": "/Feedback_UI/static/js/runtime-main.7601ac79.js",
     "runtime-main.js.map": "/Feedback_UI/static/js/runtime-main.7601ac79.js.map",
-    "static/js/2.46b0d546.chunk.js": "/Feedback_UI/static/js/2.46b0d546.chunk.js",
-    "static/js/2.46b0d546.chunk.js.map": "/Feedback_UI/static/js/2.46b0d546.chunk.js.map",
+    "static/js/2.a9ff2c24.chunk.js": "/Feedback_UI/static/js/2.a9ff2c24.chunk.js",
+    "static/js/2.a9ff2c24.chunk.js.map": "/Feedback_UI/static/js/2.a9ff2c24.chunk.js.map",
     "index.html": "/Feedback_UI/index.html",
-    "static/css/main.dba9ce61.chunk.css.map": "/Feedback_UI/static/css/main.dba9ce61.chunk.css.map",
-    "static/js/2.46b0d546.chunk.js.LICENSE.txt": "/Feedback_UI/static/js/2.46b0d546.chunk.js.LICENSE.txt"
+    "static/css/main.f1eadf9d.chunk.css.map": "/Feedback_UI/static/css/main.f1eadf9d.chunk.css.map",
+    "static/js/2.a9ff2c24.chunk.js.LICENSE.txt": "/Feedback_UI/static/js/2.a9ff2c24.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7601ac79.js",
-    "static/js/2.46b0d546.chunk.js",
-    "static/css/main.dba9ce61.chunk.css",
-    "static/js/main.6ed59ecf.chunk.js"
+    "static/js/2.a9ff2c24.chunk.js",
+    "static/css/main.f1eadf9d.chunk.css",
+    "static/js/main.5ae9726e.chunk.js"
   ]
 }
