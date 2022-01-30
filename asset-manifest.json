@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Feedback_ui/static/css/main.dba9ce61.chunk.css",
-    "main.js": "/Feedback_ui/static/js/main.6ed59ecf.chunk.js",
-    "main.js.map": "/Feedback_ui/static/js/main.6ed59ecf.chunk.js.map",
-    "runtime-main.js": "/Feedback_ui/static/js/runtime-main.e3e3b02c.js",
-    "runtime-main.js.map": "/Feedback_ui/static/js/runtime-main.e3e3b02c.js.map",
-    "static/js/2.46b0d546.chunk.js": "/Feedback_ui/static/js/2.46b0d546.chunk.js",
-    "static/js/2.46b0d546.chunk.js.map": "/Feedback_ui/static/js/2.46b0d546.chunk.js.map",
-    "index.html": "/Feedback_ui/index.html",
-    "static/css/main.dba9ce61.chunk.css.map": "/Feedback_ui/static/css/main.dba9ce61.chunk.css.map",
-    "static/js/2.46b0d546.chunk.js.LICENSE.txt": "/Feedback_ui/static/js/2.46b0d546.chunk.js.LICENSE.txt"
+    "main.css": "/Feedback_UI/static/css/main.dba9ce61.chunk.css",
+    "main.js": "/Feedback_UI/static/js/main.6ed59ecf.chunk.js",
+    "main.js.map": "/Feedback_UI/static/js/main.6ed59ecf.chunk.js.map",
+    "runtime-main.js": "/Feedback_UI/static/js/runtime-main.7601ac79.js",
+    "runtime-main.js.map": "/Feedback_UI/static/js/runtime-main.7601ac79.js.map",
+    "static/js/2.46b0d546.chunk.js": "/Feedback_UI/static/js/2.46b0d546.chunk.js",
+    "static/js/2.46b0d546.chunk.js.map": "/Feedback_UI/static/js/2.46b0d546.chunk.js.map",
+    "index.html": "/Feedback_UI/index.html",
+    "static/css/main.dba9ce61.chunk.css.map": "/Feedback_UI/static/css/main.dba9ce61.chunk.css.map",
+    "static/js/2.46b0d546.chunk.js.LICENSE.txt": "/Feedback_UI/static/js/2.46b0d546.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3e3b02c.js",
+    "static/js/runtime-main.7601ac79.js",
     "static/js/2.46b0d546.chunk.js",
     "static/css/main.dba9ce61.chunk.css",
     "static/js/main.6ed59ecf.chunk.js"
